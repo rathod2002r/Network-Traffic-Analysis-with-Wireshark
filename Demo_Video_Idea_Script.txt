@@ -1,0 +1,30 @@
+
+---
+
+### 🎥 3. Demo Video Idea (Script Outline)
+**Title:** *How to Capture and Analyze Network Traffic with Wireshark*  
+
+1. **Intro (Voiceover):**  
+   "In this video, we’ll capture and analyze network traffic using Wireshark to understand protocols and spot potential security issues."  
+
+2. **Step 1 – Install Wireshark:**  
+   Show installation commands or Wireshark download page.  
+
+3. **Step 2 – Start Capture:**  
+   Select the network interface, click **Start Capture**, generate web traffic.  
+
+4. **Step 3 – Stop and Save Capture:**  
+   Save as `wireshark_capture.pcap`.  
+
+5. **Step 4 – Apply Filters:**  
+   Demonstrate filters (`http`, `dns`, `tcp.port == 80`, `ip.addr == …`).  
+
+6. **Step 5 – Analysis:**  
+   Show protocol hierarchy, explain unencrypted HTTP headers, DNS queries, and encrypted HTTPS.  
+
+7. **Closing Note:**  
+   "Always capture traffic responsibly and only on networks you have permission to monitor."  
+
+---
+
+👉 Do you want me to also **create a sample `.pcap` file** with mock packets (not real traffic, but simulated) so you can upload it as part of your deliverables?
